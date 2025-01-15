@@ -26,6 +26,7 @@ for i in range(n):
         ans += (10*(G-C)+(H-D))*60 + (10*(J-E)+(K-F))
     else:
         print("エラー")
+        input()
         exit()
 x = ans // 60
 y = ans % 60
